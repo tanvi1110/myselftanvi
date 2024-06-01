@@ -38,6 +38,10 @@ body nav{
   border: 1px solid white;
   border-radius: 5px;
 }
+.nav-left{
+  width: 50%;
+  height: 20vh;
+}
 .nav-right{
   max-width: 50%;
   display: flex;
