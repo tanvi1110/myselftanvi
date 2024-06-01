@@ -4,18 +4,18 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-     <nav className="h-20 w-full flex flex-row items-center justify-between fixed">
+     <nav className="navtop">
           <div className="nav-left"></div>
           <div className="nav-right">
-            <div className=" p-2 navitem bor">
-              <a href="/">Home</a>
+            <div className="navitem bor">
+              <a href="/">Projects</a>
             </div>
 
-            <div className="p-2 navitem">
+            <div className=" navitem">
               <a href="/Experience">Experience</a>
             </div>
 
-            <div className="p-2 navitem ">
+            <div className=" navitem ">
               <a href="/Contact">Contact</a>
             </div>
           </div>

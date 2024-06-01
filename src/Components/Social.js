@@ -7,17 +7,17 @@ import { RiGithubFill } from "@remixicon/react";
 
 const Social = () => {
   return (
-    <div className=' social fixed flex flex-col bottom-5 left-5 pl-5'>
+    <div className='social '>
       <RiInstagramLine
-        size={24}
+        
         color="white"
         className="my-icon" />
          <RiLinkedinFill
-        size={24}
+        
         color="white"
         className="my-icon" />
          <RiGithubFill
-        size={24}
+        
         color="white"
         className="my-icon" />
     </div>
