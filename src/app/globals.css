@@ -53,6 +53,9 @@ body nav{
   padding: 0.3vw 1vw;
   margin: 0 1vw;
 }
+.hero{
+  height: 100vh;
+}
 .top{
 /* background-color: pink; */
 display: flex;

@@ -3,7 +3,7 @@ import React from 'react'
 import "./Hero.css";
 const Hero = () => {
   return (
-    <div className='h-screen flex items-center flex-col justify-center'>
+    <div className='hero h-screen flex items-center flex-col justify-center'>
     <div className="top">Yo! Tanvi here,</div>
       <div className="middle">
         <h1>Web Developer </h1>
