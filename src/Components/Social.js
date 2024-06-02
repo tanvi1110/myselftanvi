@@ -7,7 +7,7 @@ import { RiGithubFill } from "@remixicon/react";
 
 const Social = () => {
   return (
-    <div className='social '>
+    <div className='social'>
       <RiInstagramLine
         
         color="white"
