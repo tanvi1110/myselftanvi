@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import './Projects.css'
-import { RiDribbbleLine, RiGithubFill } from "@remixicon/react";
+import { RiGithubFill } from "@remixicon/react";
 const Projects = () => {
     return (
         <div className='projects'>
@@ -134,14 +134,7 @@ const Projects = () => {
 
                 </div>
             </div>
-            <div className='btnSeeMore'>
-                <div className='btndiv'>
-                    <RiDribbbleLine
-                        color="white"
-                        className="my-icon" />
-                    <h4>See More</h4>
-                </div>
-            </div>
+           
         </div>
     )
 }

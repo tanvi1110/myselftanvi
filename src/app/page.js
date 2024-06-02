@@ -5,6 +5,9 @@ import Navbar from '@/Components/Navbar';
 import Social from '@/Components/Social';
 import Walkaway from '@/Components/Walkaway';
 import Projects from '@/Components/Projects';
+import Experience from '@/Components/Experience';
+import Contact from '@/Components/Contact';
+import Footer from '@/Components/Footer';
 
 export default function Home() {
 
@@ -21,6 +24,9 @@ export default function Home() {
           <Skills />
           <Walkaway />
           <Projects />
+          <Experience />
+          <Contact />
+          <Footer />
         </div>
       </main>
     

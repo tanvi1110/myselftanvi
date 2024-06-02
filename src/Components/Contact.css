@@ -1,0 +1,148 @@
+.contact{
+padding: 0 10vw;
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+
+}
+.cLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cLeftCenter{
+    width: 90%;
+    height: 100%;
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.ctop{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.ctop h1{
+    font-size: 2vw;
+    font-weight: 800;
+    margin-bottom: 3vw; 
+  }
+.cBottom{
+    width: 100%;
+    /* height: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.phone{
+    text-align: center;
+    padding: 2vw;
+}
+.email{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.cRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cRightCenter{
+    width: 70%;
+    height: 65vh;
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #242424;
+    box-shadow: rgba(222, 222, 222, 0.337) 0px 5px 15px;
+
+}
+.contactform{
+    padding: 1.5vw;
+}
+.contactform h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.formg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.formdiv{
+    width: 100%;
+    padding: 0 2.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    
+    
+
+}
+.formGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1vw;
+}
+.formGroup label{
+    font-size: 0.9vw;
+    font-weight: 400;
+    padding-bottom: 1vw;
+
+}
+.formGroup input, textarea{
+    background-color: #242424;
+    border-bottom: 1px solid rgb(154, 154, 154);
+    width: 100%;
+    font-size: 0.9vw;
+}
+.senddiv{
+    margin-top: 1.5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.sendbtn{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw 1vw;
+    background-color: #326050;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.errordiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
