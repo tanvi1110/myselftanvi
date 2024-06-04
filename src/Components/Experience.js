@@ -1,8 +1,14 @@
-import React from 'react'
+'use client'
+import { useEffect } from 'react';
 import './Experience.css'
+import { RiArrowDownSLine, RiArrowUpSLine, RiGithubFill } from "@remixicon/react";
+import { arrowAnimate } from '../utils/arrowAnimate';
 const Experience = () => {
+    useEffect(() => {
+        arrowAnimate();
+    }, []);
     return (
-        <div className='Experience'>
+        <div id='experience' className='Experience'>
             <div className='experienceHeading'>
                 <h3>Experience</h3>
             </div>
@@ -22,12 +28,18 @@ const Experience = () => {
                                 <summary>
                                     <div className="uiuxhead">
                                         <div className="head">
-                                            <h1>UI/UX Designer | Graphic Designer</h1>
+                                            <h1 data-aos="zoom-out-left">UI/UX Designer | Graphic Designer</h1>
                                             <h2>@ Enginnering Innovation</h2>
                                         </div>
                                         <div className="arrow">
-                                            <i ></i>
-                                            <i ></i>
+                                            <RiArrowDownSLine
+                                                id="arrow-icon1"
+                                                color="white"
+                                                className="my-icon" />
+                                            <RiArrowUpSLine
+                                                id="arrow-icon2"
+                                                color="white"
+                                                className="my-icon" />
                                         </div>
                                     </div>
                                     <div className="flex">
@@ -71,16 +83,24 @@ const Experience = () => {
                             </details>
                         </div>
                         <div className="uiux">
-                            <details className="uiuxdetails" open>
+                            <details className="uiuxdetails" >
                                 <summary>
                                     <div className="uiuxhead">
                                         <div className="head">
-                                            <h1>Web Developer | UI/UX Designer</h1>
+                                            <h1 data-aos="zoom-out-left">Web Developer | UI/UX Designer</h1>
                                             <h2>@ SingleBit</h2>
                                         </div>
                                         <div className="arrow">
-                                            <i ></i>
-                                            <i ></i>
+                                        <div className="arrow">
+                                            <RiArrowDownSLine
+                                                id="arrow-icon1"
+                                                color="white"
+                                                className="my-icon" />
+                                            <RiArrowUpSLine
+                                                id="arrow-icon2"
+                                                color="white"
+                                                className="my-icon" />
+                                        </div>
                                         </div>
                                     </div>
                                     <div className="flex">
@@ -131,16 +151,24 @@ const Experience = () => {
                             </details>
                         </div>
                         <div className="uiux">
-                            <details className="uiuxdetails" open>
+                            <details className="uiuxdetails" >
                                 <summary>
                                     <div className="uiuxhead">
                                         <div className="head">
-                                            <h1>Software Developer Intern</h1>
+                                            <h1 data-aos="zoom-out-left">Software Developer Intern</h1>
                                             <h2>@ CyberCycloid</h2>
                                         </div>
                                         <div className="arrow">
-                                            <i ></i>
-                                            <i ></i>
+                                        <div className="arrow">
+                                            <RiArrowDownSLine
+                                                id="arrow-icon1"
+                                                color="white"
+                                                className="my-icon" />
+                                            <RiArrowUpSLine
+                                                id="arrow-icon2"
+                                                color="white"
+                                                className="my-icon" />
+                                        </div>
                                         </div>
                                     </div>
                                     <div className="flex">

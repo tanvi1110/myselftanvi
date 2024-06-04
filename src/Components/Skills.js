@@ -10,7 +10,7 @@ const Skills = () => {
         <div className='skillPart'>
           <div className='skillBox' data-aos="flip-left" data-aos-duration="1000"
             data-aos-easing="ease-in-out"><h5>Competitive Coding </h5></div>
-          <div className='skillBox' data-aos="flip-up" data-aos-duration="1000"
+          <div className='skillBox' data-aos="flip-left" data-aos-duration="1000"
             data-aos-easing="ease-in-out"><h5>Frontend Development</h5></div>
           <div className='skillBox' data-aos="flip-right" data-aos-duration="1000"
             data-aos-easing="ease-in-out"><h5>Backend Development</h5></div>

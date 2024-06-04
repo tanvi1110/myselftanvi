@@ -11,7 +11,7 @@
 .experienceHeading{
     font-size: 1.5vw;
     font-weight: 700;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
     margin-top: 12vw;
   }
   .page5{
@@ -26,7 +26,7 @@
     /* z-index: -1111; */
 }
 .page5 button{
-    background-color:#0da34e;
+    background-color:#1e2c93;
     padding: 0.9vw 2.5vw;
     font-size: 1vw;
     font-weight: 600;
@@ -166,11 +166,11 @@
 .date{
     font-style: italic;
 }
-.arrow-icon1{
+#arrow-icon1{
     position: absolute;
 
 }
-.arrow-icon2{
+#arrow-icon2{
     position: absolute;
     opacity: 0;
 }

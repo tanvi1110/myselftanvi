@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import 'https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css';
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,6 +18,9 @@
   } */
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
 body {
   background-color: #0C0C0C;
   color: white;
@@ -33,7 +36,10 @@ body {
   }
 }
 
-
+.spotlight{
+  z-index: 999999;
+  position: absolute;
+}
 body nav{
   background-color: #0C0C0C;
   z-index: 999;
@@ -72,6 +78,9 @@ body nav{
   padding: 0.3vw 1vw;
   margin: 0 1vw;
 }
+.navitem a{
+  cursor: pointer;
+}
 .hero{
   height: 100vh;
   width: 100%;
@@ -84,9 +93,9 @@ body nav{
 /* background-color: pink; */
 display: flex;
 width: 50%;
-align-items: flex-start;
 padding-left: 7vw;
 padding-bottom: 2vw;
+align-items: flex-start;
 font-size: 1.35vw;
 }
 .middle{
@@ -99,18 +108,68 @@ font-size: 1.35vw;
   font-weight: 600;
 }
 .bottom{
+  /* background: orange; */
+  text-align: right;
   width: 50%;
-/* background: orange; */
-text-align: right;
 padding-right: 7vw;
-font-size: 1.35vw;
 padding-top: 2vw;
+font-size: 1.35vw;
+}
+
+/* responsive design  */
+@media (max-width: 768px) {
+  .top{
+    font-size: 1.2rem;
+    width: 70%;
+padding-left: 7vw;
+padding-bottom: 5vw;
+  }
+  .middle{
+    font-size: 1.7rem;
+    width: 100%;
+    gap: 1vw;
+  }
+  .bottom{
+    font-size: 1.2rem;
+    width: 70%;
+padding-right: 7vw;
+padding-top: 7vw;
+  }
+
+  .middle h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top{
+    font-size: 1.2rem;
+    width: 100%;
+padding-left: 7vw;
+padding-bottom: 7vw;
+  }
+  .middle{
+    font-size: 1.2rem;
+    width: 100%;
+    gap: 1vw;
+  }
+  .bottom{
+    font-size: 1.2rem;
+    width: 100%;
+padding-right: 7vw;
+padding-top: 7vw;
+  }
+
+  .middle h1 {
+    font-size: 1.5rem;
+  }
+ 
 }
 
 /* social icons */
 .social{
   
-z-index: -888;
+/* z-index: -888; */
   gap: 20px;
   position: fixed;
   display: flex;
@@ -121,6 +180,9 @@ z-index: -888;
   left: 20px;
   padding-left: 2vw;
 
+}
+.social a{
+  cursor: pointer;
 }
 .my-icon{
   height: 1.5vw;
@@ -216,4 +278,23 @@ z-index: -888;
 .footer p{
   padding: 2vw;
 
+}
+.backToTopButton {
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  /* background-color: #0070f3; */
+  border: 1px solid white;
+  color: white;
+  /* border: none; */
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.backToTopButton:focus {
+  outline: none;
 }

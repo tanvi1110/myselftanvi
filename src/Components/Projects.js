@@ -4,15 +4,17 @@ import './Projects.css'
 import { RiGithubFill } from "@remixicon/react";
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div id='projects' className='projects'>
             <div className='projectHeading'>
                 <h3>Projects</h3>
             </div>
             <div className='projectdiv'>
                 <div className='projectPart'>
                     <div className='pLeft'>
-                        <div className='imgdiv'>
-                            <Image className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
+                        <div className='imgdiv' data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <Image alt='#' className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
                         </div>
                     </div>
                     <div className='rightdiv'>
@@ -42,8 +44,10 @@ const Projects = () => {
                 </div>
                 <div className='projectPart'>
                     <div className='pLeft'>
-                        <div className='imgdiv'>
-                            <Image className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
+                        <div className='imgdiv' data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <Image alt='#' className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
                         </div>
                     </div>
                     <div className='rightdiv'>
@@ -73,8 +77,10 @@ const Projects = () => {
                 </div>
                 <div className='projectPart'>
                     <div className='pLeft'>
-                        <div className='imgdiv'>
-                            <Image className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
+                        <div className='imgdiv' data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <Image alt='#' className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
                         </div>
                     </div>
                     <div className='rightdiv'>
@@ -104,8 +110,10 @@ const Projects = () => {
                 </div>
                 <div className='projectPart'>
                     <div className='pLeft'>
-                        <div className='imgdiv'>
-                            <Image className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
+                        <div className='imgdiv' data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                            <Image alt='#' className='pLeftimg' src="/achieve/flipkart grid.jpg" width={500} height={500}></Image>
                         </div>
                     </div>
                     <div className='rightdiv'>
@@ -134,7 +142,7 @@ const Projects = () => {
 
                 </div>
             </div>
-           
+
         </div>
     )
 }

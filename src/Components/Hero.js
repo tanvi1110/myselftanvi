@@ -7,7 +7,8 @@ const Hero = () => {
       <div className="top" data-aos="fade-right"
         data-aos-offset="200"
         data-aos-duration="2000"
-        data-aos-easing="ease-in-out">Yo! Tanvi here,</div>
+        data-aos-easing="ease-in-out">Yo! Tanvi here,
+        </div>
       <div data-aos="zoom-out" data-aos-offset="200"
         data-aos-duration="2000"
         data-aos-easing="ease-in-out" className="middle">
@@ -17,7 +18,9 @@ const Hero = () => {
       <div className="bottom" data-aos="fade-left"
         data-aos-offset="200"
         data-aos-duration="2000"
-        data-aos-easing="ease-in-out">from India.</div>
+        data-aos-easing="ease-in-out">from India.
+        </div>
+        
 
     </div>
   )
