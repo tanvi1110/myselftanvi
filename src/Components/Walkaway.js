@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+import './Walkaway.css'
 import { RiDribbbleLine } from "@remixicon/react";
 
 const Walkaway = () => {
@@ -20,12 +20,12 @@ const Walkaway = () => {
 
             </div>
             <a href='https://dribbble.com/devil_546k' target="_blank">
-                <div className=''>
-                    <div className='btndiv'>
+                <div className='btnSeeMore'>
+                    <div className='btndivw'>
                         <RiDribbbleLine
                             color="white"
                             className="my-icon" />
-                        <h4>See More</h4>
+                        <h3>See More</h3>
                     </div>
                 </div>
             </a>

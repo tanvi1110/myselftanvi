@@ -104,3 +104,238 @@
     font-weight: 600;
 
   }
+
+  
+/* responsive design  */
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 900px) {
+  .projects{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+.projectHeading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 3vw;
+    margin-top: 12vw;
+  }
+  .projectdiv{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .projectPart{
+    width: 100%;
+    margin: 2vw 0;
+    padding-bottom: 4vw;
+    border-bottom: 1px solid #484848;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.7rem;
+  }
+  .pLeft{
+    
+    margin-left: 1rem;
+    /* padding-left: 2vw; */
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2vw ;
+    width: 80%;
+    height:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pLeftimg{
+    width: 20rem;
+    object-fit: contain;
+  }
+  .rightdiv{
+    width: 50%;
+    height: 39vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pRight{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 0;
+    height: 100%;
+    
+    /* background-color: red; */
+    
+  }
+  .githubPart{
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  .githubPart a .my-icon{ 
+    height: 1.5rem;
+    width: 1.5rem;
+
+  }
+
+  .paraPart{
+    padding: 0.6rem 0;
+    border-top: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+  }
+  .lanPart{
+    display: flex;
+    align-items: flex-start;
+    gap: 1vw;
+    margin-top: 0.2rem;
+    justify-content: center;
+  }
+  .lan{
+    padding: 0.3rem 0.7rem;
+    /* border: 1px solid white; */
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+  }
+  .lan h5{
+    font-size: 0.7rem;
+    font-weight: 600;
+
+  }
+}
+  @media (max-width: 480px) {
+    .projects{
+      padding: 2rem 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      width: 100%;
+  }
+  .projectHeading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 3vw;
+      margin-top: 12vw;
+    }
+    .projectdiv{
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+    }
+    .projectPart{
+      width: 100%;
+      margin: 2vw 0;
+      padding-bottom: 4vw;
+      border-bottom: 1px solid #484848;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.7rem;
+    }
+    .pLeft{
+      
+      margin-left: 1rem;
+      /* padding-left: 2vw; */
+      width: 100%;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .imgdiv{
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 0.4rem ;
+      width: 80%;
+      height:70%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pLeftimg{
+      width: 20rem;
+      object-fit: contain;
+    }
+    .rightdiv{
+      width: 90%;
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .pRight{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      padding: 1rem;
+      height: 100%;
+      gap: 1rem;
+      
+      /* background-color: red; */
+      
+    }
+    .githubPart{
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+    .githubPart a .my-icon{ 
+      height: 1.5rem;
+      width: 1.5rem;
+  
+    }
+  
+    .paraPart{
+      padding: 0.6rem 0;
+      font-size: 0.8rem;
+      font-weight: 400;
+      border-top: 1px solid #9f9f9f;
+      border-bottom: 1px solid #9f9f9f;
+    }
+    .lanPart{
+      display: flex;
+      align-items: flex-start;
+      gap: 1vw;
+      margin-top: 0.2rem;
+      margin-bottom: 3rem;
+      justify-content: center;
+    }
+    .lan{
+      padding: 0.3rem 0.7rem;
+      /* border: 1px solid white; */
+      border-radius: 50px;
+      background-color: white;
+      color: black;
+    }
+    .lan h5{
+      font-size: 0.7rem;
+      font-weight: 600;
+  
+    }
+  }

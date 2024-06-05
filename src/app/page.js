@@ -9,7 +9,7 @@ import Projects from '@/Components/Projects';
 import Experience from '@/Components/Experience';
 import Contact from '@/Components/Contact';
 import Footer from '@/Components/Footer';
-// import BackToTopButton from '@/Components/BackToTop';
+import BackToTopButton from '@/Components/BackToTop';
 import Spotlight from '@/Components/ui/Spotlight';
 
 export default function Home() {
@@ -38,7 +38,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Contact />
-        {/* <BackToTopButto /> */}
+        <BackToTopButton />
         <Footer />
       </div>
     </main>

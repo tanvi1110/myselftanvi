@@ -190,3 +190,419 @@ summary::marker{
     content: "";
     /* display: none; */
 }
+/* responsive design  */
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 900px) {
+    .Experience{
+        /* padding: 2vw 10vw; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+    }
+    .experienceHeading{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 5vw;
+        margin-top: 12vw;
+      }
+      .page5{
+        min-height: 100vh;
+        /* background-color: #111; */
+        width: 100%;
+        position: relative;
+        display: flex;
+        padding: 5vh 10.5vw;
+        align-items: flex-start;
+        justify-content: space-between;
+        /* z-index: -1111; */
+    }
+    .page5 button{
+        background-color:#1e2c93;
+        padding: 0.9vw 2.5vw;
+        font-size: 0.7rem;
+        font-weight: 600;
+        border-radius: 50px;
+        border: none;
+        position: sticky;
+        top: 15% ;
+    }
+    .page5-right{
+        width: 70%;
+    
+    }
+    .page5-right>p{
+        font-size: 1rem;
+        font-weight: 100;
+        /* font-weight: 500; */
+        /* width: 70%; */
+    
+    }
+    .page5-right>p span{
+        display: inline-block;
+        width: 15vw;
+    }
+      
+    .page5-content{
+        width: 100%;
+        margin-top: 5vh;
+        /* padding: 5vh 0; */
+      
+    
+    }
+    .page5-content h1{
+        font-size: 3vw;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    .page5-content .flex{
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    
+    .page5-elem{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 3vh;
+        padding-bottom: 9vh;
+        position: relative;
+        overflow: hidden;
+        transition: all ease 0.5s;
+        border-top: 1px solid #333;
+    }
+    .page5-elem p{
+        z-index: 8;
+        width: 55%;
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+    .page5-elem h3{
+        font-size: 1.5vw;
+        z-index: 8;
+        width: 30%;
+        font-weight: 400;
+        transition: all ease 0.5s;
+    }
+    .page5-elem i{
+        font-size: 1vw;
+        z-index: 8;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: all ease 0.5s;
+    }
+    .over{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #333;
+        top: 0;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    .page5-elem:hover h3{
+        padding-left: 1vw;
+    }
+    
+    .page5-elem:hover i{
+        padding-right: 1vw;
+    }
+    
+    .page5-elem:hover .over{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .page5-elem:hover{
+        border-top: 2px solid white;
+    }
+    
+    
+    .uiux{
+        border-top: 1px solid #333;
+        padding: 3vh 0;
+    }
+    .uiuxhead{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        
+    }
+    
+    .head h2{
+        font-size: 0.7rem;
+        font-weight: 200;
+        margin-top: 0.5vw;
+    }
+    .flex{
+        
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flexdiv{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: row;
+    
+    }
+    .flexdiv h4{
+        font-size: 0.54rem;
+        padding: 0.4rem 0.7rem;
+        border-radius: 50px;
+        border: 0.7px solid rgb(198, 198, 198);        
+        font-weight: 300;
+    }
+    .date{
+        font-size: 0.7rem;
+        font-style: italic;
+    }
+    #arrow-icon1{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+    
+    }
+    #arrow-icon2{
+        position: absolute;
+        opacity: 0;
+        width: 20px;
+        height: 20px;
+    }
+    details[open] .arrow-icon1 {
+        opacity: 0; 
+      }
+      
+      details[open] .arrow-icon2 {
+        opacity: 1; 
+      }
+    .product{
+        border-top: 1px solid #333;
+        padding: 3vh 0;
+    }
+    
+    summary::marker{
+        content: "";
+        /* display: none; */
+    }
+
+}
+
+ 
+@media (max-width: 480px) {
+    .Experience{
+        padding: 2vw 5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+    }
+    .experienceHeading{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 5vw;
+        margin-top: 12vw;
+      }
+      .page5{
+        min-height: 100vh;
+        /* background-color: #111; */
+        width: 100%;
+        position: relative;
+        display: flex;
+        padding-top: 5vh;
+        padding-left: 5vh;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: space-between;
+        /* z-index: -1111; */
+    }
+    .page5 button{
+        background-color:#1e2c93;
+        padding: 0.9vw 3vw;
+        font-size: 0.7rem;
+        font-weight: 600;
+        border-radius: 50px;
+        border: none;
+        position: sticky;
+        top: 15% ;
+        right: 15%;
+    }
+    .page5-right{
+        width: 60%;
+    
+    }
+    .page5-right>p{
+        font-size: 0.8rem;
+        font-weight: 100;
+        /* font-weight: 500; */
+        /* width: 70%; */
+    
+    }
+    .page5-right>p span{
+        display: inline-block;
+        width: 15vw;
+    }
+      
+    .page5-content{
+        width: 100%;
+        margin-top: 3vh;
+        /* padding: 5vh 0; */
+      
+    
+    }
+    .page5-content h1{
+        font-size: 1.2rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    .page5-content .flex{
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    
+    .page5-elem{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        padding-top: 3vh;
+        padding-bottom: 5vh;
+        position: relative;
+        overflow: hidden;
+        transition: all ease 0.5s;
+        border-top: 1px solid #333;
+    }
+    .page5-elem p{
+        z-index: 8;
+        width: 100%;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .page5-elem h3{
+        font-size: 0.8rem;
+        z-index: 8;
+        width: 100%;
+        font-weight: 400;
+        transition: all ease 0.5s;
+    }
+    .page5-elem i{
+        font-size: 1vw;
+        z-index: 8;
+        object-fit: cover;
+        border-radius: 50%;
+        transition: all ease 0.5s;
+    }
+    .over{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #333;
+        top: 0;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    .page5-elem:hover h3{
+        padding-left: 1vw;
+    }
+    
+    .page5-elem:hover i{
+        padding-right: 1vw;
+    }
+    
+    .page5-elem:hover .over{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    .page5-elem:hover{
+        border-top: 2px solid white;
+    }
+    
+    
+    .uiux{
+        border-top: 1px solid #333;
+        padding: 3vh 0;
+    }
+    .uiuxhead{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        
+    }
+    
+    .head h2{
+        font-size: 0.7rem;
+        font-weight: 200;
+        margin-top: 0.5vw;
+    }
+    .flex{
+        
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flexdiv{
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .flexdiv h4{
+        font-size: 0.54rem;
+        padding: 0.4rem 0.7rem;
+        border-radius: 50px;
+        border: 0.7px solid rgb(198, 198, 198);        
+        font-weight: 300;
+    }
+    .date{
+        font-size: 0.7rem;
+        font-style: italic;
+    }
+    #arrow-icon1{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+    
+    }
+    #arrow-icon2{
+        position: absolute;
+        opacity: 0;
+        width: 20px;
+        height: 20px;
+    }
+    details[open] .arrow-icon1 {
+        opacity: 0; 
+      }
+      
+      details[open] .arrow-icon2 {
+        opacity: 1; 
+      }
+    .product{
+        border-top: 1px solid #333;
+        padding: 3vh 0;
+    }
+    
+    summary::marker{
+        content: "";
+        /* display: none; */
+    }
+     
+
+}

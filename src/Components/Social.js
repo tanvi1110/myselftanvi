@@ -4,7 +4,7 @@ import React from 'react';
 import {  RiTwitterXLine } from "@remixicon/react";
 import { RiLinkedinFill } from "@remixicon/react";
 import { RiGithubFill } from "@remixicon/react";
-
+import './Social.css'
 const Social = () => {
   return (
     <div className='social'>

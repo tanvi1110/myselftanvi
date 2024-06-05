@@ -1,0 +1,54 @@
+
+.backToTopButton {
+    position: fixed;
+    z-index: 9999999;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #0070f3; */
+    border: 1px solid white;
+    color: white;
+    /* border: none; */
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .backToTopButton:focus {
+    outline: none;
+  }
+
+/* responsive design  */
+@media (max-width: 900px) {
+    .backToTopButton {
+    
+        border: 1px solid white;
+    
+        padding: 10px;
+        border-radius: 50%;
+        bottom: 30px;
+        right: 30px
+          }
+          .backToTopButton>.my-icon{
+            height: 30px;
+            width: 30px;
+          }
+  }
+  
+  @media (max-width: 480px) {
+    .backToTopButton {
+    
+    border: 1px solid white;
+
+    padding: 10px;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px
+      }
+      .backToTopButton>.my-icon{
+        height: 30px;
+        width: 30px;
+      }
+   
+  }

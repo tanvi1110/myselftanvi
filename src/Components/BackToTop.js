@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-
+import './BackToTop.css'
 import { RiArrowUpLine } from "@remixicon/react";
 
 const BackToTopButton = () => {

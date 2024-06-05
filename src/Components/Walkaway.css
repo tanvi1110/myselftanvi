@@ -1,0 +1,169 @@
+
+.walkaway{
+    padding: 0 10vw;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .walkawayHeading{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-bottom: 3vw;
+  }
+  .walkawayPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .img{
+    padding: 2vw;
+  }
+  
+  .btnSeeMore{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 5vw;
+    
+  }
+  .btnSeeMore h3{
+    font-size: 1vw;
+    font-weight: 500;
+  
+  }
+  .btndivw{
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0.7vw 1.6vw;
+    border: 1px solid white;
+    border-radius: 50px;
+  }
+
+  
+/* responsive design  */
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 900px) {
+    
+.walkaway{
+    padding: 0 10vw;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .walkawayHeading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .walkawayPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .img{
+    padding: 1rem 3rem;
+  }
+  
+  .btnSeeMore{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 5rem;
+    
+  }
+  .btnSeeMore h3{
+    font-size: 0.7rem;
+    font-weight: 500;
+  
+  }
+  .btndivw{
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 30%; */
+    padding: 1vw 2vw;
+    border: 1px solid white;
+    border-radius: 50px;
+  }
+  .btndivw>.my-icon{
+    height: 15px;
+    width: 15px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+        
+.walkaway{
+    padding-left: 3rem;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .walkawayHeading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .walkawayPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img{
+    padding: 1rem 3rem;
+    width: 25rem;
+  }
+  
+  .btnSeeMore{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 2rem;
+    
+  }
+  .btnSeeMore h3{
+    font-size: 0.7rem;
+    font-weight: 500;
+  
+  }
+  .btndivw{
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 30%; */
+    padding: 2vw 3vw;
+    border: 1px solid white;
+    border-radius: 50px;
+  }
+  .btndivw>.my-icon{
+    height: 15px;
+    width: 15px;
+  }
+  }
