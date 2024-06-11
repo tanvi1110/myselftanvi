@@ -56,7 +56,7 @@ and (min-device-width: 480px)
 and (max-device-width: 900px) {
     
 .walkaway{
-    padding: 0 10vw;
+    /* padding: 0 10vw; */
     display: flex;
     width: 100%;
     min-height: 100vh;
